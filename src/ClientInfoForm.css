@@ -1,0 +1,124 @@
+
+
+.form-container {
+    display: flex;
+     /* max-width: 1200px;  */
+     width: 100%;
+     height: 100%;
+     position: fixed;
+    /* margin: 80px auto; */
+     /* border: 1px solid #ccc; */
+     /* border-radius: 10px;  */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 942px;
+    width: 522px;
+  
+    
+  }
+  
+  .logo {
+    width: 78px;
+    height:64px;
+    position: relative;
+    top: 0;
+    left: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .form-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right-panel {
+    flex: 2;
+    padding: 40px;
+    position: relative;
+    top: 65px;
+  }
+  
+  .stepper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .step.completed {
+    border-bottom: 2px solid #4D2800;
+  }
+  
+  .step.active {
+    border-bottom: 2px solid #4D2800;
+    font-weight: bold;
+  }
+  
+  .form-step {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    align-items: center;
+    border: 1px solid rgb(91, 9, 9);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 20px;
+    margin-top: 20%;
+  }
+  
+  .form-step h3 {
+    margin-bottom: 20px;
+    color: #4D2800;
+  }
+  
+  .form-step input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    width: 100%;
+  }
+  
+  .button-group button {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4D2800;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button-group button:hover {
+    background-color: #333;
+  }
+  
+  
+
